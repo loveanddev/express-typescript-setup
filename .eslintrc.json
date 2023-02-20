@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": ["airbnb-base", "prettier"],
   "parser": "@typescript-eslint/parser",
@@ -12,6 +13,8 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "no-console": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/extensions": "off",
+    "import/no-unresolved": "off"
   }
 }
